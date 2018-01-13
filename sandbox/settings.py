@@ -154,7 +154,7 @@ TEMPLATES = [
     }
 ]
 
-MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 
     'django.middleware.security.SecurityMiddleware',
